@@ -43,11 +43,11 @@ class _DepartementListerState extends State<DepartementLister> {
                 child: Card(
                   // You can customize Card properties here
                   child: ListTile(
-                    title: Text("${departement.nom} de ${departement.code} - ${departement.codeRegion}"),
+                    title: Text("${departement.nom}"),
                     subtitle: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(departement.nom),
+                        Text("Code du département: ${departement.code}"),
                       ],
                     ),
                     // You can handle onTap here
